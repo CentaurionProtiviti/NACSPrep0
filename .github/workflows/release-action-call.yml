@@ -8,11 +8,11 @@ on:
 permissions:
   contents: write
 jobs:
-  Release-solution-ALMLab:
+  Release-solution-GitHubActionNACSPrep1:
     uses: ./.github/workflows/release-solution-to-prod-with-inputs.yml
     with:
       #You can specify the solution name here
-      solution_name: ALMLab
+      solution_name: GitHubActionNACSPrep1
       #Update your values here
       BUILD_ENVIRONMENT_URL: https://org797ca272.crm.dynamics.com
       PRODUCTION_ENVIRONMENT_URL: https://org4bdf4cfa.crm.dynamics.com
